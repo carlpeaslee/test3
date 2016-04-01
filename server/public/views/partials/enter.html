@@ -1,0 +1,22 @@
+<h3>ENTER</h3>
+<form ng-submit="submit(heroObject)">
+    <label>Alias</label>
+    <input ng-model="heroObject.alias" type="text"/>
+    <label>First Name</label>
+    <input ng-model="heroObject.first_name" type="text"/>
+    <label>Last Name</label>
+    <input ng-model="heroObject.last_name" type="text"/>
+    <label>City</label>
+    <input ng-model="heroObject.city" type="text"/>
+    <select ng-model="heroObject.power_name">
+        <option value="invisibility">invisibility</option>
+        <option value="flight">flight</option>
+        <option value="super speed">super speed</option>
+        <option value="heat vision">heat vision</option>
+        <option value="super strength">super strength</option>
+        <option value="accelerated healing">accelerated healing</option>
+        <option value="power blast">power blast</option>
+        <option value="animal affinity">animal affinity</option>
+    </select>
+    <input type="submit">
+</form>
